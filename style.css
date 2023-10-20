@@ -156,3 +156,43 @@ body {
     position: absolute;
     top: 60%;
 }
+
+.button-style-two {
+    font-size: 1.2rem;
+    color: #F33535;
+    background-color: white;
+    border-radius: 40px;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-weight: bold;
+    margin-top: 50px;
+    box-shadow: 0 0 5px #2c2c2c88;
+    transition: .3s;
+}
+.button-style-two:hover {
+    background-color: #ebebeb;
+    transition: .3s;
+}
+.spiderman-div {
+    padding: 60px 0;
+    background-color: #F33535;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.spiderman-content {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.spiderman-content img {
+    border-radius: 7px;
+    width: 48%;
+} 
+.spiderman-content div {
+    font-size: 1.4rem;
+    width: 48%;
+}
