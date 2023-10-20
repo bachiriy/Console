@@ -2,9 +2,9 @@ html {
     margin: 0;
 }
 body {
-    background-color: black;
+    background-color: rgb(240, 240, 240);
     margin: 0;
-    background-image: url(home-background.png);
+    background-image: url(images/home-background.png);
     background-size: 100%;
     background-repeat: no-repeat;
     font-family: Arial, Helvetica, sans-serif;
@@ -46,6 +46,8 @@ body {
     font-weight: bold;
     font-size: 1rem;
     transition: .3s;
+    display: flex;
+    align-items: center;
 }
 .logo {
     display: flex;
@@ -56,7 +58,7 @@ body {
     height: 35px;
 }
 .profile-icon {
-    height: 30px;
+    width: 30px;
     transition: .3s;
 }
 .navbar-middle a:hover, .navbar-right a:hover{
@@ -72,7 +74,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 700px;
+    height: 800px;
     justify-content: center;
     align-items: center;
     align-content: space-around;
@@ -95,4 +97,35 @@ body {
     font-weight: bold;
     margin-top: 50px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.653);
+}
+img {
+    width: 100px;
+}
+.home-news-section {
+    margin: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.news-box {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+.nws-card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 32%;
+}
+.nws-card div{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    justify-content: space-around;
+}
+.box-img {
+    width: 100%;
+    border-top-left-radius: 90px ;
 }
