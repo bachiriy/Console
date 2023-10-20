@@ -199,7 +199,7 @@ body {
 
 .about-div {
     margin: 7% 0;
-    padding: 30px 10%;
+    padding: 100px 10%;
     color: #29252C;
     background-color: rgb(228, 228, 228);
 }
@@ -223,4 +223,57 @@ body {
 .button-style-dark:hover {
     background-color: #29252cda;
     transition: .3s;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color:#29252C;
+}
+.ft-top {
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ft-top img {
+    height: 40px;
+}
+.nav-footer {
+    display: flex;
+    width: 440px;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.follow-us {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.follow-us p {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.follow-us div {
+    display: flex;
+    justify-content: space-between;
+}
+.follow-us div img {
+    height: 40px;
+    border-radius: 5px;
+}
+.follow-us div img:hover {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.603);
+    cursor: pointer;
+}
+.ft-bottom {
+    color: white;
+    text-align: center;
+    border-top: 1px solid white;
 }
