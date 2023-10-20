@@ -4,6 +4,9 @@ html {
 body {
     background-color: black;
     margin: 0;
+    background-image: url(home-background.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 .navbar{
     display: flex;
