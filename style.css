@@ -78,7 +78,7 @@ body {
 .bg-title-red{
     color: #F33535;
 }
-.button-style-one {
+.button-style-red {
     font-size: 1.2rem;
     color: white;
     background-color: #F33535;
@@ -90,7 +90,7 @@ body {
     box-shadow: 0 0 5px #2c2c2c88;
     transition: .3s;
 }
-.button-style-one:hover {
+.button-style-red:hover {
     background-color: #ff5e5e;
     transition: .3s;
 }
@@ -157,7 +157,7 @@ body {
     top: 60%;
 }
 
-.button-style-two {
+.button-style-white {
     font-size: 1.2rem;
     color: #F33535;
     background-color: white;
@@ -169,7 +169,7 @@ body {
     box-shadow: 0 0 5px #2c2c2c88;
     transition: .3s;
 }
-.button-style-two:hover {
+.button-style-white:hover {
     background-color: #ebebeb;
     transition: .3s;
 }
@@ -195,4 +195,32 @@ body {
 .spiderman-content div {
     font-size: 1.4rem;
     width: 48%;
+}
+
+.about-div {
+    margin: 7% 0;
+    padding: 30px 10%;
+    color: #29252C;
+    background-color: rgb(228, 228, 228);
+}
+.about-div div h1 {
+    font-size: 3rem;
+}
+.about-div a {
+    margin-top: 100px;
+}
+.button-style-dark {
+    font-size: 1.2rem;
+    color: white;
+    background-color: #29252C;
+    border-radius: 40px;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-weight: bold;
+    box-shadow: 0 0 5px #2c2c2c88;
+    transition: .3s;
+}
+.button-style-dark:hover {
+    background-color: #29252cda;
+    transition: .3s;
 }
