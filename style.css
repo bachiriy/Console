@@ -85,7 +85,7 @@ body {
 .bg-consoles-word{
     color: #F33535;
 }
-.bg-see-news {
+.button-style-one {
     font-size: 1.4rem;
     color: white;
     background-color: #F33535;
@@ -94,4 +94,5 @@ body {
     padding: 10px 30px;
     font-weight: bold;
     margin-top: 50px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.653);
 }
