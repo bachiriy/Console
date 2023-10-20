@@ -1,0 +1,68 @@
+html {
+    margin: 0;
+}
+body {
+    background-color: black;
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid white;
+    background-color: #29252C;
+}
+.navbar a:hover {
+    opacity: .8;
+    transition: .3s;
+}
+.navbar-middle {
+    display: flex;
+    justify-content: space-evenly;
+    width: 450px;
+}
+.navbar-middle a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: .3s;
+}
+.navbar-right {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    justify-content: space-between;
+
+}
+.navbar-right a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: .3s;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    height: 35px;
+}
+.profile-icon {
+    height: 30px;
+    transition: .3s;
+}
+.navbar-middle a:hover, .navbar-right a:hover{
+    color: #F33535;
+    transition: .3s;
+}
+.profile-icon:hover {
+    background-color: #F33535;
+    border-radius: 50px;
+    transition: .3s;
+}
