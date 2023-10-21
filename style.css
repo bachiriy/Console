@@ -277,3 +277,26 @@ body {
     text-align: center;
     border-top: 1px solid white;
 }
+.main-big-content {
+    width: 100%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+}
+.big-cnt-right {
+    margin: 10px 20px;
+    width: 40%;
+}
+.main-big-content div p {
+    width: fit-content;
+}
+.big-cnt-left {
+    margin: 20px 20px;
+    width: 10%;
+}
+.big-cnt-right img {
+    height: 5%;
+}
+.big-cnt-left img {
+    width: 200px;
+}
