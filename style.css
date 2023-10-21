@@ -322,6 +322,46 @@ body {
     font-size: 1.3rem;
     margin-bottom: 0;
 }
+.games-box {
+    margin: 0 13em;
+    align-items: center;
+}
+.games-card {
+    margin: 2em 0;
+    display: flex;
+    background-color: white;
+    border-radius: 5px;
+    padding: 1em;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+}
+.games-card div {
+    width: 100%;
+}
+.games-card a {
+    width: 70%;
+}
+.games-card a img{
+    width: 95%;
+}
+.play-button {
+    background-color: #F33535;
+    border-radius: 5px;
+    padding: .7em 1.5em;
+    text-decoration: none;
+    color: white;
+    width: fit-content !important;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    font-weight: bold;
+    transition: .3s;
+}
+.play-button:hover {
+    opacity: .7;
+    transition: .3s;
+}
+.play-div {
+    display: flex;
+    justify-content: flex-end;
+}
 @media (max-width: 767px) {
     .main-big-content {
         display: flex;
