@@ -136,11 +136,14 @@ body {
 .title-dark-blue {
     color: #33425B;
 }
-.background img {
+.background .img1 {
     width: 100%;
 }
+.background .img2 {
+    display: none;
+}
 .background {
-    margin-bottom: 7rem;
+    margin-bottom: 3rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -299,20 +302,25 @@ body {
     width: 17%;
     background-color: #ebebeb;
     border-radius: 7px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.457);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.457);
     height: fit-content;
 }
 .big-cnt-right img {
     width: 100%;
 }
 .big-cnt-left img {
-    width: 200px;
+    width: 100%;
+}
+.big-cnt-left h1 {
+    font-size: 1.3rem;
+    margin-bottom: 0;
 }
 @media (max-width: 767px) {
     .main-big-content {
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding: 1em 0;
     }
     .big-cnt-right {
         width: 80%;
@@ -335,5 +343,78 @@ body {
     }
     .background h1 {
         font-size: .5em;
+    }
+    .ft-top img {
+        height: 30px;
+    }
+    .follow-us {
+        width: 9.5em;
+    }
+    .follow-us div img{
+        height: 2em;
+    }
+}
+@media (max-width: 480px) {
+    .background .img1{
+        display: none;
+    }
+    .background .img2 {
+        display: block;
+        width: 100%;
+    }
+    .navbar-middle a {
+        font-size: .9em;
+    }
+    .background h1 {
+        font-size: .6em;
+        text-align: center;
+    }
+    .background {
+        margin: 0;
+    }
+    .logo img {
+        height: 1.7em;
+    }
+    .main-big-content {
+        padding: 1em 0;
+    }
+    .follow-us p {
+        font-size: .7em;
+    }
+    .follow-us div img {
+        height: 1.3em;
+    }
+    .follow-us {
+        width: 7em;
+    }
+    .ft-top {
+        padding: .7em .7em;
+    }
+    .ft-bottom {
+        font-size: .7em;
+    }
+    .profile-icon {
+        width: 1.4em;
+    }
+}
+@media (max-width: 353px) {
+    .navbar {
+        flex-direction: column;
+        padding: .5em 2em;
+        height: 3em;
+        justify-content: space-between;
+    }
+    .background .img1{
+        display: none;
+    }
+    .background .img2 {
+        display: block;
+    }
+    .navbar-middle {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .navbar-right {
+        display: none;
     }
 }
