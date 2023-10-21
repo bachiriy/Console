@@ -76,6 +76,7 @@ body {
     text-shadow: 0 0 20px black;
 }
 .bg-title-red{
+    text-align: center;
     color: #F33535;
 }
 .button-style-red-div {
@@ -94,7 +95,7 @@ body {
     text-decoration: none;
     padding: 10px 30px;
     font-weight: bold;
-    box-shadow: 0 0 5px #2c2c2c88;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
     transition: .3s;
 }
 .button-style-red:hover {
@@ -125,7 +126,7 @@ body {
     width: 30%;
     align-items: center;
     border-radius: 10px;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.269);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
 .nws-card div {
     margin: 10px 0;
@@ -176,7 +177,7 @@ body {
     padding: 10px 30px;
     font-weight: bold;
     margin-top: 50px;
-    box-shadow: 0 0 5px #2c2c2c88;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
     transition: .3s;
 }
 .button-style-white:hover {
@@ -227,7 +228,7 @@ body {
     text-decoration: none;
     padding: 10px 30px;
     font-weight: bold;
-    box-shadow: 0 0 5px #2c2c2c88;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
     transition: .3s;
 }
 .button-style-dark:hover {
