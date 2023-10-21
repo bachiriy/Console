@@ -498,7 +498,10 @@ body {
     .navbar-right {
         display: none;
     }
-    .box-img {
+    .nws-card {
         width: 80%;
+    }
+    .box-img {
+        width: 100%;
     }
 }
