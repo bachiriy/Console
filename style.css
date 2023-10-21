@@ -365,7 +365,7 @@ body {
     display: flex;
     justify-content: flex-end;
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .main-big-content {
         display: flex;
         flex-direction: column;
@@ -426,6 +426,20 @@ body {
         width: 100%;
     }
     .spiderman-content div {
+        width: 100%;
+    }
+    .games-card {
+        flex-direction: column;
+    }
+    .games-box {
+        display: flex;
+        flex-direction: column;
+        margin: 1em;
+    }
+    .games-card {
+        width: 80%;
+    }
+    .games-card a, .games-card a img {
         width: 100%;
     }
 }
