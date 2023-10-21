@@ -9,6 +9,9 @@ body {
 .body-other {
     background-image: none;
 }
+.profile-icon-red {
+    display: none;
+}
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -57,7 +60,7 @@ body {
 .logo img{
     height: 35px;
 }
-.profile-icon {
+.profile-icon-white {
     width: 30px;
     transition: .3s;
 }
@@ -65,7 +68,7 @@ body {
     color: #F33535;
     transition: .3s;
 }
-.profile-icon:hover {
+.profile-icon-white:hover {
     background-color: #F33535;
     border-radius: 50px;
     transition: .3s;
@@ -369,6 +372,12 @@ body {
         align-items: center;
         padding: 1em 0;
     }
+    .profile-icon-white {
+        display: none;
+    }
+    .profile-icon-red {
+        display: block;
+    }
     .big-cnt-right {
         width: 80%;
     }
@@ -384,6 +393,9 @@ body {
     .navbar-right {
         justify-content: end;
         width: 40px;
+    }
+    .profile-icon-red {
+        width: 1.9rem;
     }
     .about {
         display: none;
@@ -462,7 +474,7 @@ body {
     .ft-bottom {
         font-size: .7em;
     }
-    .profile-icon {
+    .profile-icon-red {
         width: 1.4em;
     }
 }
@@ -485,5 +497,8 @@ body {
     }
     .navbar-right {
         display: none;
+    }
+    .box-img {
+        width: 80%;
     }
 }
