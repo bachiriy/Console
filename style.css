@@ -146,10 +146,11 @@ body {
     justify-content: center;
     align-items: center;
     position: relative;
+    font-size: 60px;
 }
 .background h1 {
     position: absolute;
-    font-size: 3rem;
+    font-size: .9em;
     text-shadow: 0 0 20px black;
 }
 .background a{
@@ -278,25 +279,33 @@ body {
     border-top: 1px solid white;
 }
 .main-big-content {
-    width: 100%;
-    background-color: red;
     display: flex;
     justify-content: center;
+    padding: 1rem 2rem;
+    justify-self: center;
+    align-self: center;
 }
 .big-cnt-right {
     margin: 10px 20px;
-    width: 40%;
-}
-.main-big-content div p {
-    width: fit-content;
+    width: 50%;
+    padding: 1rem 1rem;
 }
 .big-cnt-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 20px 20px;
-    width: 10%;
+    padding: 1rem 1rem;
+    width: 17%;
+    background-color: #ebebeb;
+    border-radius: 7px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.457);
+    height: fit-content;
 }
 .big-cnt-right img {
-    height: 5%;
+    width: 100%;
 }
 .big-cnt-left img {
     width: 200px;
 }
+
