@@ -308,4 +308,32 @@ body {
 .big-cnt-left img {
     width: 200px;
 }
-
+@media (max-width: 767px) {
+    .main-big-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .big-cnt-right {
+        width: 80%;
+    }
+    .big-cnt-left {
+        display: none;
+    }
+    .nav-footer {
+        display: none;
+    }
+    .navbar-right .sign-in {
+        display: none;
+    }
+    .navbar-right {
+        justify-content: end;
+        width: 40px;
+    }
+    .about {
+        display: none;
+    }
+    .background h1 {
+        font-size: .5em;
+    }
+}
