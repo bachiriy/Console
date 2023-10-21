@@ -78,6 +78,14 @@ body {
 .bg-title-red{
     color: #F33535;
 }
+.button-style-red-div {
+    margin: 5rem 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 40px 0;
+    background-color: rgb(255, 255, 255);
+}
 .button-style-red {
     font-size: 1.2rem;
     color: white;
@@ -86,7 +94,6 @@ body {
     text-decoration: none;
     padding: 10px 30px;
     font-weight: bold;
-    margin-top: 50px;
     box-shadow: 0 0 5px #2c2c2c88;
     transition: .3s;
 }
@@ -132,11 +139,10 @@ body {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
-
 .title-dark-blue {
     color: #33425B;
 }
-.background .img1 {
+.background img {
     width: 100%;
 }
 .background .img2 {
