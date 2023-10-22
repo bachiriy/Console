@@ -390,7 +390,7 @@ body {
     padding: 1em;
     margin: 3rem 1em;
     margin-bottom: 10rem;
-    min-width: 50%;
+    width: 45rem;
 }
 .contact-box p, .contact-box input, .contact-box textarea{
     padding: 0;
@@ -401,10 +401,11 @@ body {
 .p-f {
     font-weight: normal !important;
 }
-.contact-box input, .contact-box textarea {
+.contact-box input, .contact-box textarea{
     padding: 1em 0;
     border-radius: 5px;
     border: 1px solid black;
+    width: 100%;
 }
 .contact-box a{
     width: 100%;
@@ -425,6 +426,9 @@ body {
     transition: .3s;
 }
 @media (max-width: 768px) {
+    .contact-box {
+        width: 80%;
+    }
     .main-big-content {
         display: flex;
         flex-direction: column;
