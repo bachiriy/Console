@@ -339,6 +339,9 @@ body {
 }
 .games-card div {
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 .games-card a {
     width: 70%;
@@ -363,7 +366,63 @@ body {
 }
 .play-div {
     display: flex;
-    justify-content: flex-end;
+    align-items: end;
+}
+.contact-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    color: #29252C;
+}
+.contact-content h1{
+    width: fit-content;
+    font-size: 2rem;
+}
+.contact-content p {
+    text-align: center;
+    width: 80%;
+}
+.contact-box {
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+    padding: 1em;
+    margin: 3rem 1em;
+    margin-bottom: 10rem;
+    min-width: 50%;
+}
+.contact-box p, .contact-box input, .contact-box textarea{
+    padding: 0;
+    text-align: start;
+    width: 100%;
+    font-weight: bold;
+}
+.p-f {
+    font-weight: normal !important;
+}
+.contact-box input, .contact-box textarea {
+    padding: 1em 0;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.contact-box a{
+    width: 100%;
+    color: white;
+    text-decoration: none;
+}
+.contact-box a p {
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 1em 0;
+    text-align: center;
+    background-color: #F33535;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    transition: .3s;
+}
+.contact-box a p:hover {
+    opacity: .7;
+    transition: .3s;
 }
 @media (max-width: 768px) {
     .main-big-content {
