@@ -431,7 +431,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 600px;
+    height: 800px;
 }
 .sign-in-box div {
     box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
@@ -442,8 +442,11 @@ body {
     display: flex;
     flex-direction: column;
 }
-.sign-in-box div p, .sign-in-box a {
+.sign-in-box div p, .sign-in-box a, .sign-in-box div h1 {
     width: 100%;
+}
+.sign-in-box div h1 {
+    font-weight: 100;
 }
 .sign-in-box div p {
     font-size: 1.2rem;
