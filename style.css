@@ -7,6 +7,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 .body-other {
+    display: flex;
+    flex-direction: column;
     background-image: none;
 }
 .profile-icon-red {
@@ -117,6 +119,7 @@ body {
 }
 .news-box {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     width: 100%;
 }
@@ -326,53 +329,62 @@ body {
     margin-bottom: 0;
 }
 .games-box {
-    margin: 0 13em;
-    align-items: center;
+    width: min(90%, 1000px);
+    align-self: center;
 }
 .games-card {
-    margin: 2em 0;
+    margin: 2rem 0;
     display: flex;
+    justify-content: space-between;
     background-color: white;
     border-radius: 5px;
     padding: 1em;
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+.games-card div p, .games-card div h1 {
+    margin: 0;
 }
 .games-card div {
-    width: 100%;
+    width: 60%;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
 }
+.games-card div div, .games-card div p, .games-card div h1 {
+    width: 100%;
+}
 .games-card a {
-    width: 70%;
+    width: 38%;
 }
 .games-card a img{
-    width: 95%;
+    width: 100%;
 }
-.play-button {
-    background-color: #F33535;
-    border-radius: 5px;
-    padding: .7em 1.5em;
+.games-card div div a {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
     text-decoration: none;
+}
+.games-card div div a p {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width: fit-content;
+    border-radius: 5px;
+    padding: .5rem .7rem;
+    text-align: end;
     color: white;
-    width: fit-content !important;
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
     font-weight: bold;
+    background-color: #F33535;
     transition: .3s;
 }
-.play-button:hover {
+.games-card div div a p:hover{
     opacity: .7;
     transition: .3s;
-}
-.play-div {
-    display: flex;
-    align-items: end;
 }
 .contact-content {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
+
     color: #29252C;
 }
 .contact-content h1{
@@ -384,13 +396,15 @@ body {
     width: 80%;
 }
 .contact-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: white;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     border-radius: 10px;
-    padding: 1em;
-    margin: 3rem 1em;
-    margin-bottom: 10rem;
-    width: 45rem;
+    padding: 1rem;
+    margin: 1rem;
+    width: min(90%, 600px);
 }
 .contact-box p, .contact-box input, .contact-box textarea{
     padding: 0;
@@ -408,22 +422,11 @@ body {
     width: 100%;
 }
 .contact-box a{
-    width: 100%;
-    color: white;
     text-decoration: none;
 }
 .contact-box a p {
-    font-weight: bold;
-    border-radius: 5px;
-    padding: 1em 0;
     text-align: center;
-    background-color: #F33535;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
-    transition: .3s;
-}
-.contact-box a p:hover {
-    opacity: .7;
-    transition: .3s;
+    padding: 1rem 0;
 }
 .sign-in-box {
     display: flex;
@@ -461,16 +464,17 @@ body {
 .sign-in-box a{
     text-decoration: none;
 }
-.sign-in-box a p {
+.button-style-square {
     box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
     border-radius: 5px;
     color: white;
     padding: .7rem 0;
     text-align: center;
+    font-weight: bold;
     background-color: #F33535;
     transition: .3s;
 }
-.sign-in-box a p:hover {
+.button-style-square:hover {
     opacity: .7;
     transition: .3s;
 }
@@ -540,20 +544,18 @@ body {
     .spiderman-content div {
         width: 100%;
     }
-    .games-card {
-        flex-direction: column;
-    }
     .games-box {
-        display: flex;
-        flex-direction: column;
-        margin: 1em;
-    }
-    .games-card {
         width: 80%;
     }
-    .games-card a, .games-card a img {
+    .games-card {
+        flex-direction: column;
+    }
+    .games-card div, .games-card a {
         width: 100%;
     }
+    .games-card div h1 {
+        margin: .7rem 0;
+    } 
 }
 @media (max-width: 540px) {
     .background a {
